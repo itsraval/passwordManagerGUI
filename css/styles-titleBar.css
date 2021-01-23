@@ -1,0 +1,65 @@
+.root{
+    -fx-background-color: #2e2e2e;
+}
+
+.label-titleBar{
+    -fx-font-family: Montserrat;
+    -fx-font-size: 13px;
+    -fx-text-fill: #f2f2f2;
+    -fx-background-color: #363636;
+}
+
+.menu, .menu-item, .context-menu {
+    -fx-background-color: #363636;
+}
+
+.menu-bar{
+    -fx-background-color: #363636;
+}
+
+.menu {
+    -fx-background-color: #363636;
+}
+
+.menu .label{
+    -fx-background-color: #363636;
+    -fx-text-fill: #f2f2f2;
+}
+
+.menu: hover{
+    -fx-background-color: #3e6c73, #3e6c73, #363636;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+    -fx-background-radius: 0;
+    -fx-text-fill: #f2f2f2;
+}
+
+.menu-item {
+    -fx-background-color: #363636;
+    -fx-text-fill: #f2f2f2;
+}
+
+.menu-item: hover{
+    -fx-background-color: #3e6c73, #3e6c73, #363636;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+    -fx-background-radius: 0;
+    -fx-text-fill: #f2f2f2;
+}
+
+.button-titleBar {
+    -fx-pref-height: 25px;
+    -fx-pref-width: 28px;
+    -fx-font-size: 12px;
+    -fx-background-color: #363636;
+    -fx-background-radius: 0;
+    -fx-font-size: 12px;
+    -fx-text-fill: #f2f2f2;
+}
+
+.button-titleBar: hover{
+    -fx-background-color: #3e6c73, #3e6c73, #363636;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+    -fx-background-radius: 0;
+    -fx-text-fill: #f2f2f2;
+}
+
+
