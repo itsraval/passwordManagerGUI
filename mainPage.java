@@ -85,6 +85,7 @@ public class mainPage {
             line = scan.nextLine();
             s = line.split(" ");
             if (s[2].equals("OFF")) sendEmail = false;
+            else sendEmail = true;
             email = s[3];
 
             line = scan.nextLine();

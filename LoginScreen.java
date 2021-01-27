@@ -127,8 +127,6 @@ public class LoginScreen extends Application{
                 Utility.createReadme();
                 Utility.createSettingsFile();
                 new File("C:\\passwordManagerGUI\\Icons").mkdir();
-                // FIRST LOGIN
-                NewLogin.display(accountFile, null, null, 0);
             }
             Scanner fileScan = new Scanner(accountFile);
             if(!fileScan.hasNext()) {
@@ -195,13 +193,11 @@ public class LoginScreen extends Application{
         // user
         TextField userInput = new TextField();
         userInput.setPromptText("email@example.com");
-        userInput.setFocusTraversable(false);
         layout.add(userInput, 1, 1, 6, 1);
 
         // password
         PasswordField passwordInput = new PasswordField();
         passwordInput.setPromptText("password");
-        passwordInput.setFocusTraversable(false);
         layout.add(passwordInput, 1, 2, 6, 1);
 
         // login
@@ -238,8 +234,7 @@ public class LoginScreen extends Application{
 
             @Override
             public void handle(KeyEvent ke) {
-                if (ke.getCode().equals(KeyCode.ENTER))
-                {
+                if (ke.getCode().equals(KeyCode.ENTER)) {
                     login.requestFocus();
                     loginState(window, userInput, passwordInput);
                 }
