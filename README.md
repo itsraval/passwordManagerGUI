@@ -1,4 +1,4 @@
-<img src="https://github.com/itsraval/passwordManagerGUI/blob/main/images/icon2.png" width="200" height="200">
+<img src="https://github.com/itsraval/passwordManagerGUI/blob/main/images/icon.png" width="200" height="200">
 
 # passwordManagerGUI
 Local Password Manager. With GUI in JavaFX.
