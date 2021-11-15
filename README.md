@@ -44,4 +44,4 @@ This program uses AES to encrypt every stored password.
 * net.sf.image4j.codec.ico.ICODecoder
 
 ## Installation
-Download the app from my site [Web page](https://alessandro.ravizzotti.tk/projects.html) and follow the instruction in the README file.
+Download the app from my site [https://alessandro.ravizzotti.tk/projects.html](https://alessandro.ravizzotti.tk/projects.html) and follow the instruction in the README file.
