@@ -42,3 +42,6 @@ This program uses AES to encrypt every stored password.
 * javax.imageio
 * javax.mail
 * net.sf.image4j.codec.ico.ICODecoder
+
+## Installation
+Download the app from my site [Web page](https://alessandro.ravizzotti.tk/projects.html) and follow the instruction in the README file.
