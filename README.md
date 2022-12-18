@@ -14,7 +14,7 @@ An account is made by
 * icon of webpage
 
 or just by some of them.  
-All data will only be saved on local store in "C:\passwordManagerGUI".
+All data will only be saved locally in "C:\passwordManagerGUI".
 
 # Features
 * Integrated password generator
@@ -28,7 +28,7 @@ All data will only be saved on local store in "C:\passwordManagerGUI".
 * [Web page](https://www.pswmanager.tk)
 
 ## Cryptography
-This program uses SHA256 to store user and password to login in the app.
+This program uses SHA256 to store the user and password to login into the app.
 This program uses AES to encrypt every stored password.
 * SHA256
 * AES
