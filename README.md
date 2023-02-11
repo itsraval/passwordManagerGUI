@@ -25,7 +25,6 @@ All data will only be saved locally in "C:\passwordManagerGUI".
 * Email alert if 5 login failed attempts (Go to settings to set it)
 * Auto exit app after timer
 * Ask password after timer
-* [Web page](https://www.pswmanager.tk)
 
 ## Cryptography
 This program uses SHA256 to store the user and password to login into the app.
